@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f8f9fa;
+    color: #333;
+}
+
+.hero{
+    height: 100vh;
+    background: #6c63ff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 3rem;
+
+}
+
+.hero p{
+    margin: 10px 0 20px;
+}
+
+.btn{
+    text-decoration: none;
+    background: white;
+    color: #6c63ff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+section{
+    padding: 60px 20px;
+    text-align: center;
+    
+}
+
+h2{
+    margin-bottom: 20px;
+    color: #6c63ff;
+}
+
+.skill-box span{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #e0e0ff;
+    border-radius: 20px;
+}
+
+.project-card{
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer{
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
